@@ -1,0 +1,16 @@
+
+spring:
+  application:
+    name: spring-chat-memory-mongo
+  ai:
+    bedrock:
+      aws:
+        region: us-east-1
+        timeout: 3m
+      converse:
+        chat:
+          enabled: true
+          options:
+            model: us.anthropic.claude-sonnet-4-20250514-v1:0
+server:
+  port: 2002
